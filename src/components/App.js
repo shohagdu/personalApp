@@ -6,7 +6,7 @@ import AddContact  from "./AddContact";
 
 function App() {
   return (
-    <div>
+    <div className="ui container">
       <Header/>
       <AddContact/>
     </div>
