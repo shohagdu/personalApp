@@ -2,11 +2,12 @@ import React from "react";
 import userImg from '../images/User_Circle.png';
 
 const ContactCard = (props) =>{
+    console.log(props);
     const  {name,email,address  } =props.contact;
     return (
         <div className="item" >
             <hr/>
-            <div className="content">
+            <div className="content" >
                 <img className="ui avatar image" src={userImg} alt=""/>
                 <div className="header">{ name}</div>
                 <div >{ email}</div>
